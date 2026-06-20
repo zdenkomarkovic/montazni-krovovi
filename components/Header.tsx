@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const navLinks = [
   { href: "#", label: "Početna" },
@@ -29,11 +30,17 @@ export default function Header() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <a href="#" className="flex items-center gap-2 group">
-            <span className="text-[#d97706] text-2xl">▲</span>
+          <a href="#" className="flex items-center gap-3 group">
+            <Image
+              src="/montazni-krovovi-logo.svg"
+              alt="Montažni Krovovi logo"
+              width={50}
+              height={55}
+              className="h-11 md:h-14 w-auto"
+              priority
+            />
             <span className="text-white font-bold text-lg md:text-xl leading-tight">
-              Montažni<br className="hidden sm:block" />
-              <span className="sm:hidden"> </span>Krovovi
+              Montažni<br />Krovovi
             </span>
           </a>
 

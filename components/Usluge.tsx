@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const usluge = [
   {
     id: "krovne-konstrukcije",
@@ -114,6 +116,16 @@ export default function Usluge() {
               </ul>
             </div>
           ))}
+          <div className="border border-gray-200 rounded-xl overflow-hidden hover:border-[#d97706] hover:shadow-lg transition-all duration-300">
+            <div className="relative w-full h-full min-h-64">
+              <Image
+                src="/tipovi.jpeg"
+                alt="Tipovi krovnih konstrukcija"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>

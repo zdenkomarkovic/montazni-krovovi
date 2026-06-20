@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const tekucaGodina = new Date().getFullYear();
 
 export default function Footer() {
@@ -6,9 +8,17 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid sm:grid-cols-3 gap-8 mb-10">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-[#d97706] text-xl">▲</span>
-              <span className="text-white font-bold text-lg">Montažni Krovovi</span>
+            <div className="flex items-center gap-3 mb-4">
+              <Image
+                src="/montazni-krovovi-logo.svg"
+                alt="Montažni Krovovi logo"
+                width={88}
+                height={96}
+                className="h-24 w-auto"
+              />
+              <span className="text-white font-bold text-xl leading-tight">
+                Montažni<br />Krovovi
+              </span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
               Sistem totalne montaže krovnih konstrukcija, podkrovlja i terasa.
