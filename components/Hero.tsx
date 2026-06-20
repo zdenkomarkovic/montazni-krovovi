@@ -10,13 +10,11 @@ export default function Hero() {
         className="object-cover"
         priority
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-[#1a2e44]/80 via-[#1a2e44]/60 to-[#1a2e44]/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#1a2e44]/40 via-[#1a2e44]/40 to-[#1a2e44]/60" />
 
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto">
         <div className="inline-flex items-center gap-2 bg-[#d97706]/20 border border-[#d97706]/40 rounded-full px-4 py-1.5 mb-6">
-          <span className="text-[#d97706] text-sm font-medium">
-            Sistem totalne montaže
-          </span>
+          <span className="text-white text-sm font-medium">Sistem totalne montaže</span>
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
@@ -25,8 +23,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg sm:text-xl text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Profesionalno projektovanje i izgradnja montažnih krovnih konstrukcija,
-          podkrovlja i terasa. Brže, racionalnije i kvalitetnije od klasičnog načina gradnje.
+          Profesionalno projektovanje i izgradnja montažnih krovnih konstrukcija, podkrovlja i
+          terasa. Brže, racionalnije i kvalitetnije od klasičnog načina gradnje.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
